@@ -1,5 +1,5 @@
 import { listing } from "../../utils/constant/lists";
-import List from "../common/list";
+import Lists from "../common/Lists";
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
       </div>
       <div className="footer_wrapper">
         {listing.map((data, index) => {
-          return <List istKey={index} ListContent={data} />;
+          return <Lists istKey={index} ListContent={data} />;
         })}
       </div>
       <footer className="footer">
@@ -28,7 +28,7 @@ const Footer = () => {
           />
           <h1 className="logo">ULTRA</h1>
         </div>
-          <p className="">ULTRA @copy 2020</p>
+        <p className="">ULTRA @copy 2020</p>
       </footer>
     </>
   );

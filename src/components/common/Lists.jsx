@@ -1,6 +1,6 @@
 import Heading from "./Heading"
 import "./List.css"
-const List = ({ListContent,ListKey}) => {
+const Lists = ({ListContent,ListKey}) => {
   return (
     <>
       <ul className="ul_wrapper" id={ListKey}>
@@ -15,4 +15,4 @@ const List = ({ListContent,ListKey}) => {
   )
 }
 
-export default List
+export default Lists
