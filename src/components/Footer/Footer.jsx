@@ -1,5 +1,5 @@
 import { listing } from "../../utils/constant/lists";
-import List from "../../common/list";
+import List from "../common/list";
 import "./Footer.css";
 const Footer = () => {
   return (
