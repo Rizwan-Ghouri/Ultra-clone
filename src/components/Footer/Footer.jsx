@@ -1,6 +1,6 @@
 import { listing } from "../../utils/constant/lists";
-import Heading from "../common/Heading";
-import List from "../common/list";
+// import Heading from "../common/Heading";
+import List from "../../common/list";
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -15,11 +15,11 @@ const Footer = () => {
           <button className="email_btn">Subscribe</button>
         </div>
       </div>
-      <div className="footer_wrapper">
+      {/* <div className="footer_wrapper">
         {listing.map((data, index) => {
-          return <List ListKey={index} ListContent={data} />;
+          // return <List ListKey={index} ListContent={data} />;
         })}
-      </div>
+      </div> */}
       <footer className="footer">
         <div className="logo_wrapper">
           <img
@@ -32,7 +32,7 @@ const Footer = () => {
           <p className="">ULTRA @copy 2020</p>
           <div className="footer_list">
         {listing.map((data, index) => {
-        //   return <List ListKey={index} ListContent={data} />;
+          return <List ListKey={index} ListContent={data} />;
         })}
       </div>
       </footer>
