@@ -1,0 +1,11 @@
+.ul_wrapper{
+    list-style-type: none;
+    line-height: 1.5rem;
+}
+.ul_heading{
+    padding: 15px;
+}
+.ul_li{
+    padding: 2px;
+    padding-left: 1rem;
+}

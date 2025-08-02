@@ -1,0 +1,55 @@
+.card_continer {
+  width: 20%;
+  /* height: 30rem; */
+  padding: 2rem;
+  border: 1px solid;
+  background-color: black;
+  border: none;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.card_image {
+  width: 30%;
+  border-radius: 50px;
+  margin: 1rem;
+}
+.card_Heading {
+  border-radius: 50px;
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+.card_price {
+  border-radius: 50px;
+  font-size: xx-large;
+}
+.card_subtitle {
+  font-size: small;
+  padding: 5px 0rem 3rem 0rem;
+}
+.card_newuser {
+  color: gray;
+  font-size: small;
+  padding: 0px 0px 10px 0px;
+}
+.card_Budget {
+  color: gray;
+  font-size: small;
+  padding: 0px 0px 10px 0px;
+}
+.card_analytics {
+  color: gray;
+
+  font-size: small;
+  padding: 0px 0px 10px 0px;
+}
+.card_btn {
+  font-size: 1rem;
+  padding: 0.6rem;
+  margin: 1rem 0rem 1rem 0rem;
+  color: var(--whiteColor);
+  background-color: var(--btnColor);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

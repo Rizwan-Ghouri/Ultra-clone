@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family : sans-serif ;
+
+}
+:root{
+    --mainColor : #101522;
+    --whiteColor : white;
+    --blackColor : black;
+    --btnColor : #4B59F7;
+    --font : sans-serif ;
+}
+button{
+    color: black;
+}
+
+body::-webkit-scrollbar,body::-webkit-scrollbar-button{
+    width: 10px;
+    background-color: var(--whiteColor);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #808080d5;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
