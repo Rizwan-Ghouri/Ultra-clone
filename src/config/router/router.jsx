@@ -7,11 +7,11 @@ import Signup from "../../pages/Signup";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Ultra-clone",
     element: <AppLayout />,
     children: [
       {
-        path: "/Ultra-clone",
+        path: "/",
         element: <Home />,
       },
       {
