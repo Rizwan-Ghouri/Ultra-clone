@@ -4,7 +4,7 @@
 }
 .services_continer {
   width: 100%;
-  height: 45rem;
+  height: 40rem;
   background-color: var(--btnColor);
   color: var(--whiteColor);
   font-family: var(--font);
