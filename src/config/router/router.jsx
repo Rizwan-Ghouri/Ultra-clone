@@ -7,7 +7,7 @@ import Signup from "../../pages/Signup";
 
 export const router = createBrowserRouter([
   {
-    path: "/Ultra-clone",
+    path: "/",
     element: <AppLayout />,
     children: [
       {
